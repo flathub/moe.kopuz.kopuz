@@ -1,7 +1,7 @@
 {
   "app-id": "moe.kopuz.kopuz",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "50",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "kopuz",
   "sdk-extensions": [
@@ -63,8 +63,8 @@
         {
           "type": "git",
           "url": "https://github.com/Kopuz-org/kopuz.git",
-          "tag": "v0.20.0",
-          "commit": "a56e9ecb9f8241d43760b69022f8609ecb989c1f",
+          "tag": "v0.21.0",
+          "commit": "552400339461ef09c09d4db133bf356ea8fead18",
           "x-checker-data": {
             "type": "git",
             "is-main-source": true,
