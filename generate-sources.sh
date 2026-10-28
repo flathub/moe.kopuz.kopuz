@@ -4,6 +4,7 @@ set -euo pipefail
 
 CUR_DIR="$PWD"
 
+COMMIT=$(jq -r ".modules[-1].sources[0].commit" "$CUR_DIR/moe.kopuz.kopuz.json")
 
 if [[ "$CUR_DIR" == */packaging/flatpak ]]; then
     CUR_DIR="$(dirname "$(dirname "$CUR_DIR")")"
@@ -23,6 +24,7 @@ if [[ -f "$CUR_DIR/Cargo.lock" ]]; then
     REPO_DIR="$CUR_DIR"
 else
     git clone https://github.com/Kopuz-org/kopuz.git
+    git -C kopuz checkout "$COMMIT"
     REPO_DIR="$WORKDIR/kopuz"
 fi
 
