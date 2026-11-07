@@ -63,8 +63,8 @@
         {
           "type": "git",
           "url": "https://github.com/Kopuz-org/kopuz.git",
-          "tag": "v0.67.0",
-          "commit": "7c25238faece34ac40196affaa3340e83c6a77cc",
+          "tag": "v0.67.1",
+          "commit": "7a3474e9aa880f7ddc4e68a8846c48b23e13302c",
           "x-checker-data": {
             "type": "git",
             "is-main-source": true,
