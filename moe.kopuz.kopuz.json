@@ -56,8 +56,7 @@
         "install -Dm755 target/dx/kopuz/release/linux/app/kopuz $FLATPAK_DEST/bin/kopuz",
         "install -Dm644 data/$FLATPAK_ID.desktop $FLATPAK_DEST/share/applications/$FLATPAK_ID.desktop",
         "install -Dm644 data/$FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml",
-        "install -Dm644 crates/kopuz/assets/logo-512.png $FLATPAK_DEST/share/icons/hicolor/512x512/apps/$FLATPAK_ID.png",
-        "install -Dm644 crates/kopuz/assets/logo-128.png $FLATPAK_DEST/share/icons/hicolor/128x128/apps/$FLATPAK_ID.png"
+        "install -Dm644 apps/legacy/kopuz/assets/logo.svg $FLATPAK_DEST/share/icons/hicolor/scalable/apps/$FLATPAK_ID.png"
       ],
       "sources": [
         {
