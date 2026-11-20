@@ -24,7 +24,9 @@
     {
       "name": "kopuz",
       "buildsystem": "simple",
-      "cleanup": ["/lib/sdk"],
+      "cleanup": [
+        "/lib/sdk"
+      ],
       "build-options": {
         "strip": true,
         "prepend-path": "/app/lib/sdk/rust/bin",
@@ -49,8 +51,8 @@
         {
           "type": "git",
           "url": "https://github.com/Kopuz-org/kopuz.git",
-          "tag": "v1.0.0",
-          "commit": "003af1aac20ee7e42508d459c13d2c33357c8960",
+          "tag": "v1.0.1",
+          "commit": "77c30e9478d028b138f93076709a6e1cd06cdf62",
           "x-checker-data": {
             "type": "git",
             "is-main-source": true,
